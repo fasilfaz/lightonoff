@@ -6,6 +6,30 @@
   height: 40vmin;
   pointer-events: none;
 }
+.color{
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 5px #1759de solid;
+  padding: 50px;
+}
+.bulb{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.bulb.on{
+  background-color: yellow;
+}
+.bulb.off{
+  background-color: #ccc;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
